@@ -1,0 +1,250 @@
+{
+  "conservation": {
+    "years": 340.0,
+    "dt_days": 0.5,
+    "steps": 248370,
+    "energy_relative_range": 7.184541951538879e-07,
+    "angular_momentum_relative_change": 3.891688734198903e-14,
+    "momentum_max": 1.8094995445604167e-16
+  },
+  "planets": [
+    {
+      "name": "Mercury",
+      "n_orbits": 1411,
+      "period_sim_yr": 0.24093345103163347,
+      "period_reference_yr": 0.24084669799300829,
+      "period_difference_percent": 0.036020024085070546,
+      "a_sim_au": 0.3870641545381599,
+      "a_jpl_au": 0.38709927,
+      "kepler3_ratio": 1.0009883173055054,
+      "t2_over_a3": 1.0010259621673474,
+      "e_fit": 0.20535673008270058,
+      "e_jpl": 0.20563593,
+      "first_law_max_residual": 0.000135637024141933,
+      "areal_velocity_spread": 1.140159013583113e-06
+    },
+    {
+      "name": "Venus",
+      "n_orbits": 552,
+      "period_sim_yr": 0.6152486491195284,
+      "period_reference_yr": 0.6151972653411658,
+      "period_difference_percent": 0.008352406822553782,
+      "a_sim_au": 0.7233387467321953,
+      "a_jpl_au": 0.72333566,
+      "kepler3_ratio": 1.000140191472146,
+      "t2_over_a3": 1.0001753561707547,
+      "e_fit": 0.006804869493258596,
+      "e_jpl": 0.00677672,
+      "first_law_max_residual": 8.543569452325918e-06,
+      "areal_velocity_spread": 6.489376025621811e-06
+    },
+    {
+      "name": "Earth",
+      "n_orbits": 339,
+      "period_sim_yr": 1.000051994959676,
+      "period_reference_yr": 1.0000174322536004,
+      "period_difference_percent": 0.003456210358021572,
+      "a_sim_au": 1.0000051916352595,
+      "a_jpl_au": 1.00000261,
+      "kepler3_ratio": 1.0000562952037948,
+      "t2_over_a3": 1.0000884162591082,
+      "e_fit": 0.016743101700636708,
+      "e_jpl": 0.01671123,
+      "first_law_max_residual": 1.1190642310685338e-05,
+      "areal_velocity_spread": 1.6233238702436532e-05
+    },
+    {
+      "name": "Mars",
+      "n_orbits": 180,
+      "period_sim_yr": 1.8809293553552562,
+      "period_reference_yr": 1.880847998722169,
+      "period_difference_percent": 0.004325529396442818,
+      "a_sim_au": 1.5237042405493688,
+      "a_jpl_au": 1.52371034,
+      "kepler3_ratio": 1.0000670798861693,
+      "t2_over_a3": 1.0000988785426492,
+      "e_fit": 0.09347326685495085,
+      "e_jpl": 0.0933941,
+      "first_law_max_residual": 6.512751402504683e-05,
+      "areal_velocity_spread": 7.455760806617464e-05
+    },
+    {
+      "name": "Jupiter",
+      "n_orbits": 28,
+      "period_sim_yr": 11.85753691047338,
+      "period_reference_yr": 11.862606783088925,
+      "period_difference_percent": -0.042738267467257174,
+      "a_sim_au": 5.201293348670062,
+      "a_jpl_au": 5.202887,
+      "kepler3_ratio": 1.0001279794101123,
+      "t2_over_a3": 0.9992057521082698,
+      "e_fit": 0.048457360674434534,
+      "e_jpl": 0.04838624,
+      "first_law_max_residual": 0.00023726780937996975,
+      "areal_velocity_spread": 0.0002649595017785694
+    },
+    {
+      "name": "Saturn",
+      "n_orbits": 11,
+      "period_sim_yr": 29.244448220750545,
+      "period_reference_yr": 29.448006395983896,
+      "period_difference_percent": -0.6912460303632351,
+      "a_sim_au": 9.499464149749633,
+      "a_jpl_au": 9.53667594,
+      "kepler3_ratio": 0.9988820581624109,
+      "t2_over_a3": 0.9976760319143718,
+      "e_fit": 0.05251592188440905,
+      "e_jpl": 0.05386179,
+      "first_law_max_residual": 0.0005946923668932912,
+      "areal_velocity_spread": 0.0006621165479014368
+    },
+    {
+      "name": "Uranus",
+      "n_orbits": 4,
+      "period_sim_yr": 83.73156255263456,
+      "period_reference_yr": 84.01752619739428,
+      "period_difference_percent": -0.34036189555005647,
+      "a_sim_au": 19.151066982015028,
+      "a_jpl_au": 19.18916464,
+      "kepler3_ratio": 0.9994085898015057,
+      "t2_over_a3": 0.9981584000642093,
+      "e_fit": 0.050208751282893434,
+      "e_jpl": 0.04725744,
+      "first_law_max_residual": 3.81452052807955e-05,
+      "areal_velocity_spread": 0.00019909366741332343
+    },
+    {
+      "name": "Neptune",
+      "n_orbits": 2,
+      "period_sim_yr": 164.54917988007946,
+      "period_reference_yr": 164.79030531492918,
+      "period_difference_percent": -0.146322585172054,
+      "a_sim_au": 30.04326688501808,
+      "a_jpl_au": 30.06992276,
+      "kepler3_ratio": 0.999806443807683,
+      "t2_over_a3": 0.9985043858220796,
+      "e_fit": 0.006319701038242423,
+      "e_jpl": 0.00859048,
+      "first_law_max_residual": 2.1308118413029904e-05,
+      "areal_velocity_spread": 7.016946963718332e-05
+    }
+  ],
+  "third_law_fit": {
+    "slope": 1.4996675697581974,
+    "slope_error": 5.887422557095671e-05,
+    "intercept": 3.199237349787548e-05
+  },
+  "convergence": {
+    "dt_days": [
+      1.7593891727429085,
+      0.8796945863714543,
+      0.43984729318572713,
+      0.21992364659286356,
+      0.10996182329643178,
+      0.05498091164821589,
+      0.027490455824107946
+    ],
+    "methods": {
+      "euler": {
+        "errors": [
+          1.692929811579827,
+          1.05157362632089,
+          0.6094137590728635,
+          0.33342897272869243,
+          0.17537532605397524,
+          0.09008774754952938,
+          0.04567726472491784
+        ],
+        "measured_order": 0.936372447435391,
+        "expected_order": 1
+      },
+      "symplectic_euler": {
+        "errors": [
+          0.211887405746565,
+          0.12837196919936583,
+          0.07020528248365615,
+          0.03663862712146576,
+          0.018705929880219744,
+          0.009449865664761107,
+          0.004749183746515594
+        ],
+        "measured_order": 0.9726655934543293,
+        "expected_order": 1
+      },
+      "leapfrog": {
+        "errors": [
+          0.04797429938697524,
+          0.012022552983656587,
+          0.003007485936708486,
+          0.0007519875334860296,
+          0.00018800414535127341,
+          4.7001490362364896e-05,
+          1.175040095336531e-05
+        ],
+        "measured_order": 1.9999338726140534,
+        "expected_order": 2
+      }
+    }
+  },
+  "energy_orbits": 1000.0,
+  "energy_final": {
+    "euler": {
+      "final": 0.9449413035621568,
+      "max": 0.9449413035621568
+    },
+    "symplectic_euler": {
+      "final": 0.0003167798724060811,
+      "max": 0.004412486807110705
+    },
+    "leapfrog": {
+      "final": 6.207461537077741e-05,
+      "max": 6.97946273471306e-05
+    }
+  },
+  "second_law": {
+    "mercury": {
+      "ellipse_area": 0.46069390290707696,
+      "n_wedges": 12,
+      "area_spread": 3.752391789059095e-09,
+      "sum_over_ellipse": 0.9999999969530006
+    },
+    "halley": {
+      "period_yr": 75.31497664589641,
+      "perihelion_au": 0.5860252399997788,
+      "aphelion_au": 35.08197476061102,
+      "max_speed_kms": 54.569828015203825,
+      "min_speed_kms": 0.9115591917955661,
+      "areal_velocity_spread": 5.168036944389091e-12,
+      "closure_error_au": 2.2340159829918555e-08
+    }
+  },
+  "precession": {
+    "years": 100.0,
+    "gr_analytic": 42.98047896609495,
+    "contributions": {
+      "Venus": 275.9584453964452,
+      "Earth": 90.09597629913432,
+      "Mars": 2.46617620356668,
+      "Jupiter": 153.2029386544602,
+      "Saturn": 7.282158982980302,
+      "Uranus": 0.15732637270727232,
+      "Neptune": 0.0603873218541939
+    },
+    "two_body_newton": {
+      "rate": 0.0014186636632538888,
+      "error": 1.7688100435236073e-07
+    },
+    "two_body_gr": {
+      "rate": 42.98212458110817,
+      "error": 0.0024097881790505816
+    },
+    "n_body_newton": {
+      "rate": 529.3735666643262,
+      "error": 0.32550220673436175
+    },
+    "n_body_gr": {
+      "rate": 572.3499012716265,
+      "error": 0.32566391083763435
+    }
+  }
+}
